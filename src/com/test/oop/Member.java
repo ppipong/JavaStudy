@@ -1,6 +1,6 @@
 package com.test.oop;
 
-class Member {
+public class Member {
   private String name;
   private String gender;
   private int age;

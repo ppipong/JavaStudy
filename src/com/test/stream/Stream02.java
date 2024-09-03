@@ -1,4 +1,4 @@
-package com.test.oop;
+package com.test.stream;
 
 import java.util.ArrayList;
 import java.util.List;

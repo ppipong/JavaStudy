@@ -1,8 +1,11 @@
-package com.test.oop;
+package com.test.jdbc;
 
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.test.oop.Member;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -38,9 +41,15 @@ public class JDBCConnection {
       , rs.getInt("age")
       ));
     }
+    System.out.println("======================");
     if(rs != null) rs.close();
     if(stmt != null) stmt.close();
     if(con != null) con.close();
     
+    list.stream().forEach(s->{
+      System.out.println("이름 : " + s.getName());
+      System.out.println("성별 : " + s.getGender());
+      System.out.println("나이 : " + s.getAge());
+    });
   }
 }

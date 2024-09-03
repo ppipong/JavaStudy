@@ -1,4 +1,4 @@
-package com.test.oop;
+package com.test.stream;
 
 import java.util.function.Consumer;
 import java.util.function.Function;
