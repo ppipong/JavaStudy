@@ -16,8 +16,8 @@ public class JDBCConnection {
   public static void main(String[] args) throws ClassNotFoundException,SQLException {
     
     String uri = "jdbc:mariadb://127.0.0.1:3306/webdev";
-    String userid = "webmaster";
-    String userpw = "12345";
+    String userid = "";
+    String userpw = "";
     String query = "SELECT name , gender , age FROM tbl_test";
   
     Connection con;                
