@@ -1,3 +1,4 @@
+<<<<<<< HEAD:src/com/test/jdbc/JDBCConnection.java
 package com.test.jdbc;
 
 import java.sql.Statement;
@@ -53,3 +54,6 @@ public class JDBCConnection {
     });
   }
 }
+=======
+
+>>>>>>> 92c9af35552ca78cd88e6bcb662462a70d1ee29f:src/com/test/oop/JDBCConnection.java
