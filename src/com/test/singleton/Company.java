@@ -2,7 +2,7 @@ package com.test.singleton;
 
 public class Company {
 
-  private static  Company instance = new Company();
+  private static  Company instance;
   private Company() {} // 생성자 선언 및 정의
 
   public static Company getInstance() {
